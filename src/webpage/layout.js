@@ -14,7 +14,7 @@ export default function Layout() {
         <div className="navright">
           <div className="rightdiv">
             <span className="span-home" id="navspan">
-              <Link to="/">Home</Link>
+              <Link to="test-react">Home</Link>
             </span>
             <span className="span=about" id="navspan">
               <Link to="about">About</Link>
