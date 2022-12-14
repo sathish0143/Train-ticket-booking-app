@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.content {
+}
+
+.train-content {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.seats1 {
+}
+.seatdiv1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.seatdiv2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.seatimg {
+  width: 45px;
+  margin: 10px;
+  border: 2px solid black;
+  background-color: lightgreen;
+}
+#seatid-1 {
+}
+.seatno {
+  display: flex;
+  align-items: center;
+}
+
+.book-seat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.seat-lable {
+  font-weight: 500;
+  font-family: "Russo One", sans-serif;
+}
+
+#seatcount {
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: large;
+  width: 50px;
+  height: 30px;
+  border: 2px solid black;
+}
+.booknow {
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgb(53, 255, 53);
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Russo One", sans-serif;
+}
+.booknow:hover {
+  background-color: green;
+}
+
+.seatbut {
+  background-color: bisque;
+}
+
+.seat-but:hover {
+  border: 5px solid blue;
+}

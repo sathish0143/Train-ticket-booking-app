@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-image: url("../png/background.jfif");
+  background-size: cover;
+}
+
+.nav-container {
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: transparent;
+}
+.navbar {
+  text-align: center;
+  border-bottom: 4px solid transparent;
+  border-image: linear-gradient(
+    0.25turn,
+    rgba(255, 249, 34),
+    rgba(255, 0, 128),
+    rgba(56, 2, 155, 0)
+  );
+  border-image-slice: 1;
+  width: 100%;
+}
+.tikt-logo {
+  width: 150px;
+  margin-left: 20px;
+}
+
+.navright {
+  margin-right: 5%;
+}
+#navspan {
+  margin-left: 50px;
+  font-family: "Russo One", sans-serif;
+  font-size: 18px;
+}
+
+a:-webkit-any-link {
+  color: black;
+  text-decoration: none;
+}
+
+a:-webkit-any-link:hover {
+  color: red;
+}
+
+.book-button {
+  width: 140px;
+  height: 45px;
+  border-radius: 10px;
+  background-color: rgb(233, 229, 3);
+  cursor: pointer;
+}
+.seat-but {
+  margin-right: 5px;
+  height: 40px;
+  width: 45px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: large;
+  font-family: "Russo One", sans-serif;
+  background-color: rgb(69, 128, 255);
+}
