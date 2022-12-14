@@ -12,7 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route path="test-react" index element={<Home />} />
-          <Route path="about" element={<About />} />
+          <Route path="abou" element={<About />} />
           <Route path="contact" element={<Contact />} />
           <Route path="*" element={<Nopage />} />
         </Route>
