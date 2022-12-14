@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/test-react/static/css/main.94890d82.css",
-    "main.js": "/test-react/static/js/main.52e3867e.js",
+    "main.js": "/test-react/static/js/main.00bc894f.js",
     "static/js/787.b52190a6.chunk.js": "/test-react/static/js/787.b52190a6.chunk.js",
     "static/media/background.jfif": "/test-react/static/media/background.de749cac3a12efa92068.jfif",
     "static/media/ticlogo.png": "/test-react/static/media/ticlogo.af5da325ca8bc61c7ba6.png",
     "index.html": "/test-react/index.html",
     "main.94890d82.css.map": "/test-react/static/css/main.94890d82.css.map",
-    "main.52e3867e.js.map": "/test-react/static/js/main.52e3867e.js.map",
+    "main.00bc894f.js.map": "/test-react/static/js/main.00bc894f.js.map",
     "787.b52190a6.chunk.js.map": "/test-react/static/js/787.b52190a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.94890d82.css",
-    "static/js/main.52e3867e.js"
+    "static/js/main.00bc894f.js"
   ]
 }
