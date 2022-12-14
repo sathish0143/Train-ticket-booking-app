@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ticket-booking-app/static/css/main.4181ae2b.css",
+    "main.js": "/ticket-booking-app/static/js/main.6f10d3a1.js",
+    "static/js/787.b52190a6.chunk.js": "/ticket-booking-app/static/js/787.b52190a6.chunk.js",
+    "static/media/background.jfif": "/ticket-booking-app/static/media/background.de749cac3a12efa92068.jfif",
+    "static/media/ticlogo.png": "/ticket-booking-app/static/media/ticlogo.af5da325ca8bc61c7ba6.png",
+    "index.html": "/ticket-booking-app/index.html",
+    "main.4181ae2b.css.map": "/ticket-booking-app/static/css/main.4181ae2b.css.map",
+    "main.6f10d3a1.js.map": "/ticket-booking-app/static/js/main.6f10d3a1.js.map",
+    "787.b52190a6.chunk.js.map": "/ticket-booking-app/static/js/787.b52190a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4181ae2b.css",
+    "static/js/main.6f10d3a1.js"
+  ]
+}
