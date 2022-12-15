@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 
 export default function Home() {
   const [val, setVal] = useState(1);
-  //* console.log(val);
 
   //!alredy booked seats
 
@@ -75,6 +74,26 @@ export default function Home() {
   });
 
   //!button onclick  to change color
+  const [emparr, setEmp] = useState([]);
+  const changeColor = (event) => {
+    const getId = document.getElementById(event.target.id);
+    const btId = getId.id;
+
+    if (emparr.length < 2) {
+      console.log(emparr.length);
+      const getColor = document.getElementById(btId);
+      getColor.style.backgroundColor = "red";
+      emparr.push(btId);
+      console.log(emparr.length);
+    }
+    if (emparr.length > 1) {
+      console.log(emparr.length);
+      const delcolor = document.getElementById(emparr[0]);
+      delcolor.style.backgroundColor = "bisque";
+      console.log(delcolor);
+      emparr.splice(0, 1);
+    }
+  };
 
   return (
     <div className="content">
@@ -825,7 +844,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="book-seat">
+      <div className="book-seat" onClick={changeColor}>
         <h4>Select No Of Seats : </h4>
         <button id="tik-1" className="seat-but" onClick={() => setVal(1)}>
           1
